@@ -17,7 +17,7 @@ if ! command -v limine &>/dev/null; then
     fi
 
     # Regenerate initramfs
-    sudo mkinitcpio -P
+#     sudo mkinitcpio -P
   fi
 
   # Add kernel parameters for Plymouth

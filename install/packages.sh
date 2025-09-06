@@ -1,9 +1,45 @@
 #!/bin/bash
+#   1password-beta \
+#   1password-cli \
+#   asdcontrol-git \
+#   cups \
+#   cups-browsed \
+#   cups-filters \
+#   cups-pdf \
+#   docker \
+#   docker-buildx \
+#   docker-compose \
+#   github-cli \
+#   luarocks \
+#   obs-studio \
+#   obsidian \
+#   omarchy-chromium \
+#   signal-desktop \
+#   spotify \
+#   system-config-printer \
+#   ufw-docker \
+#   typora \
+#   ttf-ia-writer \
+
+#   cargo \
+#   gcc14 \
+
+# TO-ADD-POST-INSTALL:
+#   localsend \
+#   pinta \
+#   python-terminaltexteffects \
+#   walker-bin \
+#   tzupdate \
+#   wf-recorder \
+#   wl-screenrec \
+#   yaru-icon-theme \
+#   yay \
+
+sudo pacman -S --noconfirm --needed rustup
+
+rustup default stable
 
 sudo pacman -S --noconfirm --needed \
-  1password-beta \
-  1password-cli \
-  asdcontrol-git \
   alacritty \
   avahi \
   bash-completion \
@@ -11,15 +47,7 @@ sudo pacman -S --noconfirm --needed \
   blueberry \
   brightnessctl \
   btop \
-  cargo \
   clang \
-  cups \
-  cups-browsed \
-  cups-filters \
-  cups-pdf \
-  docker \
-  docker-buildx \
-  docker-compose \
   dust \
   evince \
   eza \
@@ -29,10 +57,9 @@ sudo pacman -S --noconfirm --needed \
   fcitx5-qt \
   fd \
   ffmpegthumbnailer \
+  firefox \
   fontconfig \
   fzf \
-  gcc14 \
-  github-cli \
   gnome-calculator \
   gnome-keyring \
   gnome-themes-extra \
@@ -60,8 +87,6 @@ sudo pacman -S --noconfirm --needed \
   libqalculate \
   libreoffice \
   llvm \
-  localsend \
-  luarocks \
   mako \
   man \
   mariadb-libs \
@@ -74,11 +99,9 @@ sudo pacman -S --noconfirm --needed \
   noto-fonts-extra \
   nss-mdns \
   nvim \
-  obs-studio \
-  obsidian \
-  omarchy-chromium \
   pamixer \
-  pinta \
+  plasma-meta \
+  sddm \
   playerctl \
   plocate \
   plymouth \
@@ -87,43 +110,30 @@ sudo pacman -S --noconfirm --needed \
   power-profiles-daemon \
   python-gobject \
   python-poetry-core \
-  python-terminaltexteffects \
   qt5-wayland \
   ripgrep \
   satty \
-  signal-desktop \
   slurp \
-  spotify \
   starship \
   sushi \
   swaybg \
   swayosd \
-  system-config-printer \
   tldr \
   tree-sitter-cli \
   ttf-cascadia-mono-nerd \
-  ttf-ia-writer \
   ttf-jetbrains-mono-nerd \
-  typora \
-  tzupdate \
   ufw \
-  ufw-docker \
   unzip \
   uwsm \
-  walker-bin \
   waybar \
-  wf-recorder \
   whois \
   wiremix \
   wireplumber \
   wl-clip-persist \
   wl-clipboard \
-  wl-screenrec \
   woff2-font-awesome \
   xdg-desktop-portal-gtk \
   xdg-desktop-portal-hyprland \
   xmlstarlet \
   xournalpp \
-  yaru-icon-theme \
-  yay \
   zoxide
